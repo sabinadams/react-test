@@ -9,7 +9,13 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar></Navbar>
-        {this.props.children}
+        {
+        	this.props.children || 
+        	
+			<div className="container">
+        	<h2>Home</h2>
+        	</div>
+        }
       </div>
     );
   }

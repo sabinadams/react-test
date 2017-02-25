@@ -17,7 +17,7 @@ class Image extends Component {
 
   render() {
     return (
-      <div id="img">
+      <div id="img" className="container">
         <h2>This is a Page</h2>
         <img src={this.state.imgSrc} alt={this.state.imgAlt} width={this.props.width} height={this.props.height}/>
         <br />
