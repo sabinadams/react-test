@@ -1,0 +1,18 @@
+img {
+	border-radius:7px;
+}
+
+#img button {
+	box-shadow:0 0 3px #000;
+	padding:7px;
+	background-color:rgb(10, 169, 234);
+	width:100px;
+	border-radius:7px;
+	border:0;
+	margin:0;
+	color:#fff;
+}
+
+#img button:hover {
+	background-color:rgb(11, 159, 220);
+}
